@@ -19,7 +19,7 @@ const MusicPortfolio: NextPage = () => {
         <section className="mb-16">
           <h2 className="mb-8 text-2xl sm:text-4xl">Piano</h2>
           <p className="mb-4">
-            I'm a self taught pianist with 10+ years of performance experience
+            I&apos;m a self taught pianist with 10+ years of performance experience
             across religious, orchestral, and education settings. I began as a
             church pianist and organist. I now play in musical theatre pit
             bands.
@@ -78,7 +78,7 @@ const MusicPortfolio: NextPage = () => {
         <section>
           <h2 className="mb-8 text-2xl sm:text-4xl">How I Got Here</h2>
           <p className="mb-4">
-            Over the last decade I've also undertaken studies in Double Bass
+            Over the last decade I&apos;ve also undertaken studies in Double Bass
             (grade 4), tenor trombone (grade 8), and choral singing. When not
             playing in pit bands, I also perform on-stage in amateur musical
             theatre.
@@ -90,7 +90,7 @@ const MusicPortfolio: NextPage = () => {
             the opportunity to play tenor trombone for the National Orchestra
             For All (NOFA), as well as being accepted into the National Youth
             Orchestra (NYO), and nominated for the Royal Birmingham
-            Conservetoire's "LEAP" youth ensemble.
+            Conservetoire&apos;s &quot;LEAP&quot; youth ensemble.
           </p>
           <p>
             If anyone in a lower income situation is trying to support a young

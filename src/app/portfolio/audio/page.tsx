@@ -19,18 +19,18 @@ const AudioPortfolio: NextPage = () => {
         <section className="mx-auto mb-16 max-w-prose">
           <h2 className="mb-8 text-2xl sm:text-4xl">Introduction</h2>
           <p className="mb-4">
-            I'm a Music & Music Technology student at the University Of
+            I&apos;m a Music & Music Technology student at the University Of
             Nottingham. I work in Logic Pro to record, create, and mix music. I
             have also worked with Cubase for music recording and production. I
             also work with EOS Family software for lighting design, and QLab for
             sound design.
           </p>
           <p className="mb-4">
-            I'm currently volunteering as the Company Technical Director at the
+            I&apos;m currently volunteering as the Company Technical Director at the
             Nottingham New Theatre where I am responsible for the technical
             training of our lighting and sound designers in QLab, EOS, and
             rigging of smart lighting fixtures. I also run live sound for our
-            social events such as our "Green Room" & "Drag Night" performance
+            social events such as our &quot;Green Room&quot; & &quot;Drag Night&quot; performance
             fundraisers, and our Oscars-inspired awards evening.
           </p>
         </section>

@@ -32,7 +32,3 @@ div#experience-table-container::after {
   background: linear-gradient(90deg, rgb(0 0 0 / 0%) 0%, var(--background) 100%);
   pointer-events: none;
 }
-
-.portfolio-card:hover p {
-  opacity: 1;
-}

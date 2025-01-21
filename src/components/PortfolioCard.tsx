@@ -16,7 +16,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
 }) => {
   return (
     <Link href={url} className="max-w-96 flex-grow">
-      <div className="portfolio-card relative overflow-hidden rounded border border-slate-700 transition-all duration-500 hover:border-slate-400">
+      <div className="portfolio-card relative overflow-hidden rounded border border-slate-700 transition-all duration-500 hover:border-slate-400 [&>p]:hover:opacity-100">
         <Image
           src={image}
           className="rounded transition-all duration-500 hover:scale-110 hover:opacity-40 hover:blur-sm"
