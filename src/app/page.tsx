@@ -1,13 +1,25 @@
-export default function Home() {
-	return (
-		<main className="flex flex-col items-center justify-center h-screen text-center px-4">
-			<div className="mb-24">
-				<h1 className="text-4xl sm:text-7xl mb-4">BEN BROMLEY</h1>
-				<h2 className="text-center text-md sm:text-xl">Software Engineer • Musician • AV Technician</h2>
-			</div>
-			<div>
-				<p>More coming soon...</p>
-			</div>
-		</main>
-	);
-}
+import { type NextPage } from 'next';
+import PortfoliosList from '@/components/PortfoliosList';
+
+const Home: NextPage = () => {
+  return (
+    <main>
+      <section className="flex h-screen flex-col items-center justify-center px-4 text-center">
+        <h1 className="mb-4 text-4xl sm:text-7xl">BEN BROMLEY</h1>
+        <h2 className="text-md text-center sm:text-xl">
+          Software Engineer • Musician • Audio Technician
+        </h2>
+      </section>
+      <section className="mb-24 flex justify-center px-4 text-center">
+        <div>
+          <h2 className="mb-12 text-4xl">Portfolios</h2>
+          <div className="flex flex-wrap justify-center gap-4">
+            <PortfoliosList />
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+};
+
+export default Home;
