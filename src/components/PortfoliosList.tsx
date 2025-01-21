@@ -34,7 +34,7 @@ const PortfoliosList: React.FC = () => {
   ];
 
   return portfolios.map(({ url, image, title, alt }) => (
-    <PortfolioCard url={url} image={image} title={title} alt={alt} />
+    <PortfolioCard key={url} url={url} image={image} title={title} alt={alt} />
   ));
 };
 
