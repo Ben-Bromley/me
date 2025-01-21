@@ -6,7 +6,7 @@ type IconWrapperProps = IconProps & {
 	children?: JSX.Element;
 };
 const IconWrapper: FC<IconWrapperProps> = ({ children, className, href }) => {
-	className = `${className} transition-colors duration-150`;
+	className = `${className} transition-all duration-300`;
   
   if (href) {
 		return (
