@@ -19,3 +19,20 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* technical experience table, black gradient on right hand side to fade out overflow */
+div#experience-table-container::after {
+  content: '';
+  position: absolute;
+  left: 95%;
+  right: 0px;
+  height: 100%;
+  top: 0px;
+  background: linear-gradient(90deg, rgb(0 0 0 / 0%) 0%, var(--background) 100%);
+  pointer-events: none;
+}
+
+.portfolio-card:hover p {
+  opacity: 1;
+}
