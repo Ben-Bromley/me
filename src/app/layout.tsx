@@ -8,7 +8,7 @@ import Pin from '@/components/icons/Pin';
 export const metadata: Metadata = {
   title: 'Ben Bromley',
   description:
-    'Ben Bromley is a software engineer, musician, and AV technician.',
+    'Ben Bromley is a software engineer, musician, and audio technician.',
 };
 
 export default function RootLayout({
