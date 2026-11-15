@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <main>
       <section className="flex h-screen flex-col items-center justify-center px-4 text-center">
-        <h1 className="mb-4 text-4xl sm:text-7xl">BEN BROMLEY</h1>
+        <h1 className="mb-4 text-5xl sm:text-7xl">BEN BROMLEY</h1>
         <h2 className="text-md text-center sm:text-xl">
           Software Engineer • Musician • Audio Technician
         </h2>

@@ -3,6 +3,7 @@ import './globals.css';
 import { montserrat } from './fonts';
 import GitHub from '../components/icons/GitHub';
 import LinkedIn from '../components/icons/LinkedIn';
+import Pin from '@/components/icons/Pin';
 
 export const metadata: Metadata = {
   title: 'Ben Bromley',
@@ -20,9 +21,13 @@ export default function RootLayout({
       <body className={`${montserrat.className} relative antialiased`}>
         {children}
         <SocialIcons />
-        <footer>
-          <div className="text-center">
-            <p className="p-4 text-gray-500">
+        <footer className="mb-10 mt-4 text-center">
+          <div className="p-4 text-gray-500 ml-2 text-lg gap-2">
+            <p className="items-center inline-flex text-xl">
+              <Pin className='inline mr-1'/>
+              <span>East Midlands, UK</span>
+            </p>
+            <p className="text-gray-700">
               &copy; Ben Bromley {new Date().getFullYear()}
             </p>
           </div>

@@ -32,3 +32,14 @@ div#experience-table-container::after {
   background: linear-gradient(90deg, rgb(0 0 0 / 0%) 0%, var(--background) 100%);
   pointer-events: none;
 }
+
+div#music-experience-table-container::after {
+  content: '';
+  position: absolute;
+  left: 95%;
+  right: 0px;
+  height: 100%;
+  top: 0px;
+  background: linear-gradient(90deg, rgb(0 0 0 / 0%) 0%, var(--background) 100%);
+  pointer-events: none;
+}

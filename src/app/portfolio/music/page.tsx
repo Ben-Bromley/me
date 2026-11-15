@@ -31,50 +31,66 @@ const MusicPortfolio: NextPage = () => {
           </p>
         </section>
         <h2 className="my-8 text-2xl sm:text-4xl">Experience</h2>
-        <section className="mb-16">
-          <table className="w-full border-separate">
-            <thead>
-              <tr className="text-left">
-                <th>Part</th>
-                <th>Show</th>
-                <th className='hidden md:table-cell'>Location</th>
-                <th className='hidden sm:table-cell'>Date</th>
-              </tr>
-            </thead>
-            <tbody>
-              {/* <ExperienceTableRow
-                part="Keyboard"
-                show="Evita"
-                location="Loughborough, England"
-                date="Sep 2025"
-              /> */}
-              <ExperienceTableRow
-                part="Keyboard 2"
-                show="We Will Rock You"
-                location="Leicester, England"
-                date="Mar 2025"
-              />
-              <ExperienceTableRow
-                part="Keyboard 2"
-                show="Joseph"
-                location="Leicester, England"
-                date="Mar 2024"
-              />
-              <ExperienceTableRow
-                part="Keyboard 1"
-                show="Sister Act"
-                location="Leicester, England"
-                date="Mar 2020"
-              />
-              <ExperienceTableRow
-                part="Rhythm Guitar"
-                show="FAME!"
-                location="Leicester, England"
-                date="Feb 2018"
-              />
-            </tbody>
-          </table>
-        </section>
+        <div id="music-experience-table-container" className="relative">
+          <div className="overflow-x-scroll">
+            <section className="mb-16">
+              <table className="w-full min-w-max">
+                <thead>
+                  <tr className="border-b border-gray-700 text-left">
+                    <th className='pb-4'>Part</th>
+                    <th>Show</th>
+                    <th className='hidden md:table-cell'>Location</th>
+                    <th className='hidden sm:table-cell'>Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <ExperienceTableRow
+                    part="Keyboard 2"
+                    show="Shrek: The Musical"
+                    location="Leicester, England"
+                    date="May 2026"
+                  />
+                  <ExperienceTableRow
+                    part="Keyboard 2"
+                    show="Bake Off: The Musical"
+                    location="Loughborough, England"
+                    date="Apr 2026"
+                  />
+                  <ExperienceTableRow
+                    part="Assistant Musical Director & Keyboard 1"
+                    show="Grease: The Musical"
+                    location="Nottingham, England"
+                    date="Feb 2026"
+                  />
+                  <ExperienceTableRow
+                    part="Keyboard 3"
+                    show="Evita"
+                    location="Loughborough, England"
+                    date="Sep 2025"
+                  />
+                  <ExperienceTableRow
+                    part="Keyboard 2"
+                    show="We Will Rock You"
+                    location="Leicester, England"
+                    date="Mar 2025"
+                  />
+                  <ExperienceTableRow
+                    part="Keyboard 2"
+                    show="Joseph"
+                    location="Leicester, England"
+                    date="Mar 2024"
+                  />
+                  <ExperienceTableRow
+                    part="Keyboard 1"
+                    show="Sister Act"
+                    location="Leicester, England"
+                    date="Mar 2020"
+                  />
+                </tbody>
+              </table>
+            </section>
+          </div>
+        </div>
         <section>
           <h2 className="mb-8 text-2xl sm:text-4xl">How I Got Here</h2>
           <p className="mb-4">
@@ -122,11 +138,11 @@ const ExperienceTableRow: React.FC<ExperienceTableRowProps> = ({
   date,
 }) => {
   return (
-    <tr>
-      <td>{part}</td>
-      <td>{show}</td>
-      <td className="hidden md:table-cell">{location}</td>
-      <td className="hidden sm:table-cell">{date}</td>
+    <tr className="border-b border-gray-700">
+      <td className="max-w-60 py-2 pr-8">{part}</td>
+      <td className="max-w-60 py-2 pr-8">{show}</td>
+      <td className="hidden max-w-60 py-2 pr-8 md:table-cell">{location}</td>
+      <td className="hidden max-w-60 py-2 pr-8 sm:table-cell">{date}</td>
     </tr>
   );
 };

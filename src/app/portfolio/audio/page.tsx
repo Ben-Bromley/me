@@ -17,21 +17,32 @@ const AudioPortfolio: NextPage = () => {
       </header>
       <main className="px-4 py-16">
         <section className="mx-auto mb-16 max-w-prose">
-          <h2 className="mb-8 text-2xl sm:text-4xl">Introduction</h2>
+          <h2 className="mb-4 mt-8 text-2xl sm:text-4xl">Education</h2>
           <p className="mb-4">
-            I&apos;m a Music & Music Technology student at the University Of
-            Nottingham. I work in Logic Pro to record, create, and mix music. I
-            have also worked with Cubase for music recording and production. I
-            also work with EOS Family software for lighting design, and QLab for
-            sound design.
+            <strong>I&apos;m an MSc Audio Engineering student at the University of Derby</strong>,
+            currently studying power amplifier design, digital signal processing,
+            and audio research skills.
           </p>
           <p className="mb-4">
-            I&apos;m currently volunteering as the Company Technical Director at the
-            Nottingham New Theatre where I am responsible for the technical
-            training of our lighting and sound designers in QLab, EOS, and
-            rigging of smart lighting fixtures. I also run live sound for our
-            social events such as our &quot;Green Room&quot; & &quot;Drag Night&quot; performance
-            fundraisers, and our Oscars-inspired awards evening.
+            <strong>I recently graduated 1st class in BA (Hons) Music & Music Technology
+            at the University Of Nottingham. I received a first class (82%) for my final year
+            project</strong>, which investigated machine learning enabled systems for real-time sound
+            design in improvised theatre.
+          </p>
+          <h2 className="mb-4 mt-8 text-2xl sm:text-4xl">Tech at the Nottingham New Theatre</h2>
+          <p className="mb-4">
+            I recently finished 2 years managing the technical department of the
+            Nottingham New Theatre, having been awarded a lifelong fellowship for my work.
+
+            Here I led technical training of commmittee and membership, including rigging,
+            EOS family for lighting, and QLab for sound design. My roles also involved designing rig
+            plans for dozens of plays based on a limited supply of shared technical stock, regularly
+            dealing with technical troublshooting and logistics, and frequently managing a team of
+            technicians with varied ability, building rigs under tight timing constraints. I also ran
+            live sound for our social events such as our &quot;Green Room&quot; & &quot;Drag Night&quot;
+            performance fundraisers, and our Oscars-inspired awards evening. I concluded my stint on the
+            committee as the technical director and A1 sound technician for the theatre's 100 centenary
+            alumni event.
           </p>
         </section>
         <section className="mx-auto mb-16 max-w-prose">
@@ -48,41 +59,65 @@ const AudioPortfolio: NextPage = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {/* <ExperienceTableRow
-                    part="Technical Assistant"
-                    show="Misc. Live Events"
-                    location="TEC PA & Lighting"
-                    date="2024 - Present"
-                  /> */}
+                  <ExperienceTableRow
+                    part="LX & Sound Technician"
+                    show="Legion Dance Showcase"
+                    location="University of Exeter"
+                    date="November 2026"
+                  />
+                  <ExperienceTableRow
+                    part="Technical Director"
+                    show="100 Years Of Student Theatre (Alumni Event)"
+                    location="Nottingham New Theatre"
+                    date="Summer 2026"
+                  />
+                  <ExperienceTableRow
+                    part="Technical Manager"
+                    show="All Plays and Events"
+                    location="Nottingham New Theatre"
+                    date="2025 - 2026"
+                  />
+                  <ExperienceTableRow
+                    part="LX & Sound Technician"
+                    show="Legion Dance Showcase"
+                    location="University of Exeter"
+                    date="November 2025"
+                  />
+                  <ExperienceTableRow
+                    part="Technician & Technical Manager"
+                    show="All Fringe Shows"
+                    location="Edinburgh Fringe Festival"
+                    date="August, 2025 & 2026"
+                  />
+                  <ExperienceTableRow
+                    part="Sound Designer"
+                    show="The Sinking Place (Play)"
+                    location="Nottingham New Theatre"
+                    date="March 2025"
+                  />
                   <ExperienceTableRow
                     part="Company Technical Director"
                     show="All Plays and Events"
                     location="Nottingham New Theatre"
-                    date="2024 - Present"
+                    date="2024 - 2025"
                   />
                   <ExperienceTableRow
                     part="Technical Director"
                     show="Immanuel Kant (Play)"
-                    location="Edinburgh"
+                    location="Edinburgh Fringe Festival"
                     date="August 2024"
                   />
                   <ExperienceTableRow
-                    part="Lighting Designer"
+                    part="LX Designer"
                     show="About My Depression (Play)"
                     location="Nottingham"
                     date="November 2023"
                   />
                   <ExperienceTableRow
-                    part="Lighting Designer"
+                    part="LX Designer"
                     show="Jack And The Beanstalk (Pantomime)"
                     location="Leicester"
                     date="December 2018"
-                  />
-                  <ExperienceTableRow
-                    part="Student Venue Technician"
-                    show="All Showcases"
-                    location="Leicester"
-                    date="2017 - 19"
                   />
                 </tbody>
               </table>
@@ -90,10 +125,10 @@ const AudioPortfolio: NextPage = () => {
           </div>
         </section>
         <section className="mx-auto max-w-prose">
-          <h2 className="mb-8 text-2xl sm:text-4xl">Aspirations</h2>
+          <h2 className="mb-4 mt-8 text-2xl sm:text-4xl">Current Work</h2>
           <p className="mb-4">
-            I am looking to expand my portfolio of work in sound design, audio
-            engineering, and lighting design.
+            I continue to offer occasional freelance services as an EOS and QLab programmer
+            in the East Midlands area
           </p>
         </section>
       </main>
