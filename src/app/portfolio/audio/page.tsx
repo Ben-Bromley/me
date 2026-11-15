@@ -41,7 +41,7 @@ const AudioPortfolio: NextPage = () => {
             technicians with varied ability, building rigs under tight timing constraints. I also ran
             live sound for our social events such as our &quot;Green Room&quot; & &quot;Drag Night&quot;
             performance fundraisers, and our Oscars-inspired awards evening. I concluded my stint on the
-            committee as the technical director and A1 sound technician for the theatre's 100 centenary
+            committee as the technical director and A1 sound technician for the theatre&apos;s 100 centenary
             alumni event.
           </p>
         </section>
